@@ -8,6 +8,7 @@ body {
     padding: 0;
     height: auto;
     width: 100%;
+    font-family: cursive;
   }
   
   .NavbarItems h1 {
@@ -42,7 +43,8 @@ body {
     text-decoration: none;
   }
   li:hover {
-    background-color: rgba(255, 255, 255, 0.575);
+    background-color: rgba(255, 255, 255, 0.678);
+    border-radius: 8px;
   }
   li:hover .nav-links {
     color: black;

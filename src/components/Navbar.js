@@ -11,7 +11,7 @@ import { Nav } from "react-bootstrap";
 export default function Navbar() {
   return (
     <Nav className="NavbarItems">
-      <h1 className="Navbar-logo">Logo de mi e-comerce</h1>
+      <h1 className="Navbar-logo">Logo de mi e-commerce</h1>
       <div className="menu-icon"></div>
       <ul>
         {MenuItems.map((item, index) => {
