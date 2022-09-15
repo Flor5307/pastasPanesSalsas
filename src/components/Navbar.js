@@ -6,6 +6,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";*/
 import React from "react";
 import { MenuItems } from "./MenuItems";
 import { Nav } from "react-bootstrap";
+import "./Navbar.css";
 
 
 export default function Navbar() {
@@ -24,6 +25,7 @@ export default function Navbar() {
           );
         })}
       </ul>
+      <a href="#" className="Navbar-carrito">Carrito</a>
     </Nav>
   );
 }
